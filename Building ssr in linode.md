@@ -1,6 +1,7 @@
 # Log in linode using ssh
-## then install wget and shadowsocks
+##  install wget
     yum install wget -y
-    wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
-    chmod +x shadowsocks-go.sh
-    ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
+## install shadowsocks
+    wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+    chmod +x shadowsocks-all.sh
+    ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
