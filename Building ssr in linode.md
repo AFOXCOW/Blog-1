@@ -14,7 +14,7 @@
 ## server configuration
     cd ~/shadowsocksr
     bash initcfg.sh
-## modify the userapiconfig.py as follows
+## modify the ```userapiconfig.py``` as follows
     API_INTERFACE = 'mudbjson' #modify interface type
     SERVER_PUB_ADDR = '127.0.0.1' #modify the public network IP corresponding to the generated link
 ## add a new user
