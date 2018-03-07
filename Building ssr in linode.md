@@ -9,6 +9,10 @@
     wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ## or install BBR
 ```wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh```
+```reboot```
+## check whether installed successfully
+```lsmod | grep bbr```
+## if bbr exists in the result, install successfully
 # SSR for multiusers
 ## install pip and git 
     yum install -y python-setuptools && easy_install pip
