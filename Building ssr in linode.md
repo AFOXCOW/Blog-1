@@ -6,14 +6,18 @@
     chmod +x shadowsocks-all.sh
     ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ## install ServerSpeeder
-```wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh```
+```
+wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
+```
 ## or install BBR
 ```
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh 
 reboot
 ```
 ## check whether installed successfully
-```lsmod | grep bbr```
+```
+lsmod | grep bbr
+```
 ## if bbr exists in the result, install successfully
 # SSR for multiusers
 ## install pip and git 
