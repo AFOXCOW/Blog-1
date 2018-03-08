@@ -19,3 +19,5 @@
 # Baidu Netdisk
 
 # Altium
+
+# zbar
