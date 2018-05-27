@@ -38,3 +38,14 @@ lsmod | grep bbr
 ## if dont need log
     ./run.sh
 
+Shadowsocks-Python 版：
+/etc/init.d/shadowsocks-python start | stop | restart | status
+
+ShadowsocksR 版：
+/etc/init.d/shadowsocks-r start | stop | restart | status
+
+Shadowsocks-Go 版：
+/etc/init.d/shadowsocks-go start | stop | restart | status
+
+Shadowsocks-libev 版：
+/etc/init.d/shadowsocks-libev start | stop | restart | status
